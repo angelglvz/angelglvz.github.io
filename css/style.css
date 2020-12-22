@@ -1,3 +1,7 @@
+*{
+    font-size: 1em;
+    
+}
 section, footer, aside, nav, article, figure, figcaption,hgroup{
     display : block;
 }
@@ -7,19 +11,30 @@ h1, h2, h3, h4, h5, h6{
 }
 h1{
     color: #D2270C ;
-    text-align: left;
-    padding-left: 15%;
+    font-size: 3em;
+    text-align: center;
+}
+h2{
+    padding: 1.2em ;
+    font-size: 2em;
+}
+h3{
+    padding:1.2em;
+    font-size: 1.5em;
 }
 body {
     background: url("../recursos/noise.jpg");
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10%;
+    padding-right: 10% ;
+    width: 70em;
 }
 
 #navigation {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align: left;
-    padding-left: 15%;
+    text-align: center;
+    width: 70em;
 }
 
 #navigation li {
@@ -39,3 +54,116 @@ body {
 #navigation li a:hover{
     color: #368DF8;
 }
+.principal{
+    width: 70em;
+}
+.presentacion {
+    text-align: left;
+    display: inline-block;
+    
+}
+#presentacion-texto{
+    display: inline;
+    text-align: left;
+    max-width: 30%;
+    padding-right: 1%;
+    
+}
+
+#presentacion-datos{
+    margin-left: 15px;
+}
+
+.presentacion img{
+    width: 200px;
+    display: block;
+    vertical-align:middle;
+    margin: auto;
+    padding-left: 15%;
+    
+
+}
+.col{
+    display:block;
+    float: left;
+    width: 33%;  
+    border-left: 1px #8d8d8d;  
+}
+.estudios-oficiales img{
+    max-width: 200px;
+    max-height: 200px;
+    padding:1em;
+}
+.estudios-oficiales{
+    box-sizing: border-box;
+}
+.ies {
+    display: inline-block;
+    width:100%;
+}
+.ies img {
+    float: left;
+    padding-left: 25%;
+}
+.estudios-oficiales p{
+    padding: 3em;
+}
+.uclm img {
+    float: left;
+    padding-left: 25%;
+}
+.cursos img{
+    max-height: 200px;
+    width: auto;
+    padding-top: 1em;
+}
+
+
+
+
+
+/*
+
+.estudios-oficiales p{
+    
+    padding: 3em;
+}
+.ies{
+    display:inline-block;
+}
+.ies p{
+    float: right;
+}
+.uclm {
+    display:inline-block;
+}
+
+
+.estudios-oficiales{
+    position:relative;
+}
+
+.uclm {
+    display:inline-block;
+    position: relative;
+}
+
+.uclm img{
+    left:0;
+}
+
+.uclm p{
+    float: right;
+}
+
+.ies{
+    display:inline-block;
+    position:relative;
+}
+
+.ies p{
+    float:right;
+}
+
+
+*/
