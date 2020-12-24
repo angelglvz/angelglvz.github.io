@@ -130,9 +130,11 @@ body {
     max-height: 200px;
     max-width:450px;
     padding-left: 20%;
+    padding-bottom: 1em;
+    padding-top: 1em;
 }
 .b2 p{
-    padding-top: 4em;
+    padding-top: 2.5em;
 }
 
 .conservatorio{
@@ -140,13 +142,13 @@ body {
 }
 .conservatorio img{
     float:left;
-    max-height: 200px;
+    height: auto;
     width: 450px;
     padding-left:20%;
     
 }
 .conservatorio p{
-    padding-top: 4em;
+    padding-top: 3.5em;
 }
 
 #contacto{
